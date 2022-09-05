@@ -1,0 +1,74 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  border: none;
+  outline: none;
+}
+
+body{
+  font-weight: 700;
+  font-family: sans-serif;
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, tomato, dodgerblue);
+}
+
+.login{
+  width: 250px;
+  height: min-content;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #202020;
+}
+
+input{
+  width: 100%;
+  padding: 5px 0px 5px 0px;
+  border-radius: 5px;
+  color: black;
+  font-weight: bolder;
+}
+
+label{
+  padding-bottom: 5px;
+  padding-top: 20px;
+  display: block;
+  font-size: small;
+}
+
+h2, p{
+  text-align: center;
+}
+
+p{
+  font-size: small;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+input[type=button]{
+  margin-top: 20px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bolder;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+input[type=button]:hover{
+  background-color: slateblue;
+}
+
+a:visited{
+  color: transparent;
+}
+
+h6{
+  margin-top: 5px;
+  text-align: center;
+}
